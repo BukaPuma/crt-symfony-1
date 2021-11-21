@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
     app:
-        image: melvia/test5:php-about-symfony
+        image: melvia/docker-test:php-about-symfony
 
     database: 
         image: postgres:11-alpine
